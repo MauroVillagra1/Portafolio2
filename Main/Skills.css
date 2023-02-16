@@ -1,0 +1,44 @@
+.skills {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 1% 0 1% 0;
+}
+
+
+.all-skill {
+    padding: 5%;
+}
+
+.skills img {
+    width: 40%;
+    height: 50%;
+}
+
+.img-skills {
+    text-align: center;
+}
+
+.skills-background {
+    width: 100%;
+    padding: 5% 5% 0 5%;
+}
+
+.all-skill {
+    display: flex;
+    flex-direction: row;
+}
+
+@media screen and (max-width: 370px) {
+    .skills img {
+        width: 60%;
+        height: 60%;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    .skills img {
+        width: 100%;
+        height: 100%;
+    }
+}

@@ -1,0 +1,45 @@
+.studies {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  padding: 10%;
+}
+
+.dark .studies {
+  filter: invert(100%);
+
+}
+
+
+
+.card {
+  margin: 5% 2.5% 5% 2.5%;
+  text-align: center;
+  height: 200px;
+  min-height: 451px;
+}
+
+.card img {
+  min-height: 234px;
+  object-fit: contain;
+  padding: 5%;
+  border-bottom: black solid 2px;
+}
+
+@media screen and (max-width: 370px) {
+  .card {
+    min-height: 300px;
+  }
+
+  .card-text {
+    display: none;
+  }
+
+  .card-title {
+    height: auto;
+  }
+
+  .btn-primary {
+    height: auto;
+  }
+}
